@@ -1,0 +1,14 @@
+type Query {
+  me: User
+  members: [User]
+}
+
+type Subscription {
+  onNewMessage: String
+}
+
+type User {
+  id: ID
+  name: String @fake(type: fullName)
+  email: String @fake(type: email)
+}

@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "web": "next ./web"
   },
   "repository": {
     "type": "git",
@@ -22,11 +23,22 @@
     "babel-eslint": "^8.1.2",
     "babel-jest": "^22.0.4",
     "babel-preset-react-native": "^4.0.0",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
     "eslint": "^4.9.0",
     "eslint-config-airbnb": "16.1.0",
     "eslint-plugin-import": "^2.7.0",
     "eslint-plugin-jsx-a11y": "^6.0.2",
     "eslint-plugin-react": "^7.4.0",
-    "jest": "^22.0.4"
+    "graphql": "^0.12.3",
+    "graphql-tag": "^2.6.1",
+    "graphql-tower-apollo": "^3.30.0",
+    "graphql-tower-faker": "^3.30.3",
+    "graphql-tower-types": "^3.30.0",
+    "jest": "^22.0.4",
+    "next": "^4.2.1",
+    "react": "^16.2.0",
+    "react-apollo": "^2.0.4",
+    "react-dom": "^16.2.0"
   }
 }
