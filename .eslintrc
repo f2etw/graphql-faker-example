@@ -1,0 +1,23 @@
+{
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+  "globals": {
+    "jest": true,
+    "describe": true,
+    "it": true,
+    "expect": true,
+    "beforeEach": true,
+    "afterEach": true,
+    "beforeAll": true,
+    "afterAll": true,
+    "window": true,
+    "fetch": true,
+    "XMLHttpRequest": true,
+    "FormData": true
+  },
+  "rules": {
+    "import/no-extraneous-dependencies": [0],
+    "function-paren-newline": ["error", "consistent"],
+    "react/jsx-filename-extension": [2, { "extensions": [".js", ".jsx"] }]
+  }
+}
